@@ -24,9 +24,9 @@
         android:gravity="center"
         android:text="@string/q31"
         android:textSize="@dimen/text_q1"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView" />
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintEnd_toStartOf="@id/checkBox2" />
 
     <CheckBox
         android:id="@+id/checkBox2"
@@ -35,9 +35,9 @@
         android:gravity="center"
         android:text="@string/q32"
         android:textSize="@dimen/text_q1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkBox1" />
+        app:layout_constraintStart_toEndOf="@id/checkBox1"
+        app:layout_constraintTop_toTopOf="@+id/checkBox1"
+        app:layout_constraintEnd_toStartOf="@id/checkBox3" />
 
     <CheckBox
         android:id="@+id/checkBox3"
@@ -46,9 +46,9 @@
         android:gravity="center"
         android:text="@string/q33"
         android:textSize="@dimen/text_q1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkBox2" />
+        app:layout_constraintStart_toEndOf="@id/checkBox2"
+        app:layout_constraintTop_toTopOf="@+id/checkBox2"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/startButton"

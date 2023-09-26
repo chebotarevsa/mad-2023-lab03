@@ -21,7 +21,6 @@
         android:id="@+id/textViewCor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/marginBottom_Button1"
         android:gravity="center"
         android:text="@string/result1"
         android:textColor="@color/green"

@@ -24,9 +24,11 @@
         android:gravity="center"
         android:hint="@string/q21"
         android:inputType="text"
+        android:minHeight="@dimen/mN"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView" />
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintBottom_toTopOf="@id/startButton" />
 
     <Button
         android:id="@+id/startButton"
