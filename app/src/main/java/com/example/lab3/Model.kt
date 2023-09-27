@@ -1,6 +1,6 @@
 package com.example.lab3
 
-object Controller {
+object Model {
     private var correctAnswers = 0
     private var incorrectAnswers = 0
     fun incrementCorrectAnswer() {

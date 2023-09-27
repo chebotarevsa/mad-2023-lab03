@@ -20,14 +20,14 @@ class Activity6 : AppCompatActivity() {
         result2 = findViewById(R.id.textViewIncor)
 
 
-        val correctAnswersText = Controller.getCorrectAnswers().toString()
-        val incorrectAnswersText = Controller.getIncorrectAnswers().toString()
+        val correctAnswersText = Model.getCorrectAnswers().toString()
+        val incorrectAnswersText = Model.getIncorrectAnswers().toString()
 
         result1.text = getString(R.string.result1, correctAnswersText)
         result2.text = getString(R.string.result2, incorrectAnswersText)
 
         findViewById<Button>(R.id.resetButton).setOnClickListener {
-            Controller.resetAnswer()
+            Model.resetAnswer()
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }

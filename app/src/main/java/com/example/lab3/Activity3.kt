@@ -21,9 +21,9 @@ class Activity3 : AppCompatActivity() {
         startButton.setOnClickListener {
             val answer = editText?.text?.toString()?.trim()
             if (answer == CORRECT_ANSWER) {
-                Controller.incrementCorrectAnswer()
+                Model.incrementCorrectAnswer()
             } else {
-                Controller.incrementIncorrectAnswer()
+                Model.incrementIncorrectAnswer()
             }
             val i = Intent(this, Activity4::class.java)
             startActivity(i)

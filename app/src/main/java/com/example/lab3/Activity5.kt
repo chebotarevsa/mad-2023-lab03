@@ -23,9 +23,9 @@ class Activity5 : AppCompatActivity() {
 
         startButton.setOnClickListener {
             if (hasCorrectAnswer) {
-                Controller.incrementCorrectAnswer()
+                Model.incrementCorrectAnswer()
             } else {
-                Controller.incrementIncorrectAnswer()
+                Model.incrementIncorrectAnswer()
             }
             val i = Intent(this, Activity6::class.java)
             startActivity(i)

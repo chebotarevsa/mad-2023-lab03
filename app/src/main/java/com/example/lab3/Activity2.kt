@@ -17,9 +17,9 @@ class Activity2 : AppCompatActivity() {
         findViewById<Button>(R.id.startButton).setOnClickListener {
             val correctAnswer = radioButton1.isChecked
             if (correctAnswer) {
-                Controller.incrementCorrectAnswer()
+                Model.incrementCorrectAnswer()
             } else {
-                Controller.incrementIncorrectAnswer()
+                Model.incrementIncorrectAnswer()
             }
             val i = Intent(this, Activity3::class.java)
             startActivity(i)
