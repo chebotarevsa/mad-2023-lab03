@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fon2"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question2"
+        android:textSize="@dimen/sizeQuestion1"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/widthImageView3"
+        android:layout_height="@dimen/heightImageView3"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269"
+        app:srcCompat="@drawable/dizel" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="@dimen/widthRadioGroupView3"
+        android:layout_height="@dimen/heightRadioGroupView3"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="150dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="@dimen/widthRadioButton"
+            android:layout_height="@dimen/heightRadioButton"
+            android:text="@string/answer1" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="@dimen/widthRadioButton"
+            android:layout_height="@dimen/heightRadioButton"
+            android:text="@string/answer2" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="@dimen/widthRadioButton"
+            android:layout_height="@dimen/heightRadioButton"
+            android:text="@string/answer3" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/widthButton"
+        android:layout_height="@dimen/layoutButton"
+        android:layout_marginBottom="@dimen/marginButton"
+        android:text="@string/nextQuestion"
+        android:textSize="@dimen/sizeFontButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

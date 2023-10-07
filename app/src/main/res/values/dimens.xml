@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeFont">60sp</dimen>
+    <dimen name="sizeFontButton">25sp</dimen>
+    <dimen name="widthButton">300dp</dimen>
+    <dimen name="layoutButton">75dp</dimen>
+    <dimen name="sizeQuestion1">30sp</dimen>
+    <dimen name="heightRadioButton">60dp</dimen>
+    <dimen name="sizeQuestion3">20sp</dimen>
+    <dimen name="chekBoxWidthQ3">120dp</dimen>
+    <dimen name="chekBoxHeightQ3">48dp</dimen>
+    <dimen name="startTextV5and6">36dp</dimen>
+    <dimen name="sizeCount">60sp</dimen>
+    <dimen name="imageWidth4lact">490dp</dimen>
+    <dimen name="imageHeight4lact">270dp</dimen>
+    <dimen name="sizeDopNameQuiz">20sp</dimen>
+    <dimen name="marginButton">50dp</dimen>
+    <dimen name="widthTextView2">260dp</dimen>
+    <dimen name="heightTextView2">70dp</dimen>
+    <dimen name="widthImageView3">420dp</dimen>
+    <dimen name="heightImageView3">420dp</dimen>
+    <dimen name="widthRadioGroupView3">400dp</dimen>
+    <dimen name="heightRadioGroupView3">60dp</dimen>
+    <dimen name="widthRadioButton">110dp</dimen>
+    <dimen name="widthImageView5">425dp</dimen>
+    <dimen name="heightImageView5">315dp</dimen>
+    <dimen name="widthButtonLand3">200dp</dimen>
+    <dimen name="heightButtonLand3">55dp</dimen>
+    <dimen name="textSizeButtonLand3">15sp</dimen>
+    <dimen name="widthRadioGroupView3Land">185dp</dimen>
+    <dimen name="heightRadioGroupView3Land">230dp</dimen>
+</resources>

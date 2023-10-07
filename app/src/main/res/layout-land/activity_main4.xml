@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fon2"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="@string/question3"
+        android:textSize="@dimen/sizeQuestion1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="280dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/skrudzh" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/widthButtonLand3"
+        android:layout_height="@dimen/heightButtonLand3"
+        android:layout_marginEnd="20dp"
+        android:text="@string/nextQuestion"
+        android:textSize="@dimen/textSizeButtonLand3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="@dimen/chekBoxWidthQ3"
+        android:layout_height="@dimen/chekBoxHeightQ3"
+        android:layout_marginStart="36dp"
+        android:text="@string/possibleAnswer1_q3"
+        android:textSize="@dimen/sizeQuestion3"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="@dimen/chekBoxWidthQ3"
+        android:layout_height="@dimen/chekBoxHeightQ3"
+        android:layout_marginStart="36dp"
+        android:text="@string/possibleAnswer4_q3"
+        android:textSize="@dimen/sizeQuestion3"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="@dimen/chekBoxWidthQ3"
+        android:layout_height="@dimen/chekBoxHeightQ3"
+        android:layout_marginStart="36dp"
+        android:text="@string/possibleAnswer2_q3"
+        android:textSize="@dimen/sizeQuestion3"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="@dimen/chekBoxWidthQ3"
+        android:layout_height="@dimen/chekBoxHeightQ3"
+        android:layout_marginStart="36dp"
+        android:text="@string/possibleAnswer3_q3"
+        android:textSize="@dimen/sizeQuestion3"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
