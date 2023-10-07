@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">40sp</dimen>
+    <dimen name="text_q1">20sp</dimen>
+    <dimen name="text_q6">30sp</dimen>
+    <dimen name="button_size">20sp</dimen>
+    <dimen name="image_width">250dp</dimen>
+    <dimen name="button_quiz">0dp</dimen>
+    <dimen name="image_height">250dp</dimen>
+    <dimen name="marginBottom_Button">10dp</dimen>
+    <dimen name="marginBottom_Button1">300dp</dimen>
+    <dimen name="marginBottom_Button2">250dp</dimen>
+    <dimen name="marginBottom_Top1">150dp</dimen>
+    <dimen name="marginTop">50dp</dimen>
+    <dimen name="mN">50dp</dimen>
+</resources>

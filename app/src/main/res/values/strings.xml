@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="quiz">QUIZ</string>
+    <string name="gameStart">Начать игру</string>
+    <string name="q1">Какая это марка автомобиля?</string>
+    <string name="q1_1">FIAT</string>
+    <string name="q1_2">LADA</string>
+    <string name="q1_3">OPEL</string>
+    <string name="q1But">Следующий вопрос</string>
+    <string name="q2">Как много кубиков можно положить в пустую корзину?</string>
+    <string name="q21">Ответ цифрами(Один)</string>
+    <string name="q3">Какие штаты в Америке существуют на самом деле?</string>
+    <string name="q31">Огайо</string>
+    <string name="q32">Техас</string>
+    <string name="q33">Окони</string>
+    <string name="q4">Включите переключатель для дополнительного балла</string>
+    <string name="q41">Дополнительный балл?</string>
+    <string name="q44">Подсчитать очки</string>
+    <string name="q5">В ходе викторины вы ответили на 4 вопроса, из них:</string>
+    <string name="q5but">Начать заново</string>
+    <string name="result1">Правильные ответы: %1$s</string>
+    <string name="result2">Неправильные ответы: %1$s</string>
+</resources>
