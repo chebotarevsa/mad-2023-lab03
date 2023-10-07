@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">lab3Mobile</string>
+    <string name="startGame">Начать игру</string>
+    <string name="question1">Первый фильм Гая Ричи?</string>
+    <string name="hintQuestion1">Введите название фильма</string>
+    <string name="answer1">Доменик Торретто</string>
+    <string name="answer2">Луиджи Пармезано</string>
+    <string name="answer3">Вин Дизель</string>
+    <string name="question2">Выбери имя актёра</string>
+    <string name="nextQuestion">Следующий вопрос</string>
+    <string name="question3">Какие из этих фильмов в прокате заработали больше миллиарда $?</string>
+    <string name="possibleAnswer1_q3">Шрек 2</string>
+    <string name="possibleAnswer2_q3">Титаник</string>
+    <string name="possibleAnswer3_q3">Джокер</string>
+    <string name="possibleAnswer4_q3">Аватар</string>
+    <string name="nameQuiz">QUIZ</string>
+    <string name="dopNameQuiz">По кино</string>
+    <string name="goResult">К результатам</string>
+    <string name="question4">Есть ли у этого актера премия Оскар?</string>
+    <string name="textOfSwitch">Click if true</string>
+    <string name="restartQuiz">Начать заново</string>
+    <string name="trueAnswerQuiz">Верно: </string>
+    <string name="falseAnswerQuiz">Не верно: </string>
+    <string name="correctAnswer1">Карты деньги два ствола</string>
+
+</resources>
