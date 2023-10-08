@@ -15,6 +15,12 @@ class FourthQuestionActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.nextButton.setOnClickListener {
+            if (binding.switcher.isChecked) {
+                AppVars.correctAnswers++
+            } else {
+                AppVars.incorrectAnswers++
+            }
+
             Intent(this, FinishingActivity::class.java).also {
                 startActivity(it)
             }

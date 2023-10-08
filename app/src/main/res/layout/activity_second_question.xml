@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/secondQ"
+        android:text="@string/secondQQ"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,6 +44,7 @@
             android:text="@string/radioAns1" />
 
         <RadioButton
+            android:id="@+id/correctRadioButton"
             android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

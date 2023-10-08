@@ -15,6 +15,12 @@ class ThirdQuestionActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.nextButton.setOnClickListener {
+            if (binding.firstCB.isChecked && binding.secondCB.isChecked) {
+                AppVars.correctAnswers++
+            } else {
+                AppVars.incorrectAnswers++
+            }
+
             Intent(this, FourthQuestionActivity::class.java).also {
                 startActivity(it)
             }

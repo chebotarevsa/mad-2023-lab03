@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Что сделать?"
+        android:text="@string/thirdQQ"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,9 +28,10 @@
         app:layout_constraintVertical_bias="0.55" />
 
     <CheckBox
+        android:id="@+id/firstCB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Принять звонок"
+        android:text="@string/thirdQAns1"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,9 +40,10 @@
         app:layout_constraintVertical_bias="0.65" />
 
     <CheckBox
+        android:id="@+id/secondCB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ответить на звонок"
+        android:text="@string/thirdQAns2"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

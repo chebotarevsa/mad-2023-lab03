@@ -5,13 +5,17 @@
     <string name="endSurvey">Завершить опрос</string>
     <string name="startAgain">Начать заново</string>
     <string name="nextQ">Следующий вопрос</string>
-    <string name="firstQ">Как зовут этого попугая?</string>
-    <string name="thirdQ">Купить бодрящую самсу для Андрея?</string>
-    <string name="secondQ">Кто это?</string>
-    <string name="correct">Верно %1$s</string>
-    <string name="incorrect">Неверно %1$s</string>
+    <string name="firstQQ">Как зовут этого попугая?</string>
+    <string name="fourthQQ">Купить бодрящую самсу для Андрея?</string>
+    <string name="secondQQ">Кто это?</string>
+    <string name="correct">Верно: %1$d</string>
+    <string name="incorrect">Неверно: %1$d</string>
     <string name="radioAns1">Дуэйн Скала Джонсон</string>
     <string name="radioAns2">Андрей Леонтьевич Ковалёв</string>
     <string name="radioAns3">Знаменитый поедатель самсы</string>
+    <string name="parrotName">Иннокентий</string>
+    <string name="thirdQQ">Что сделать?</string>
+    <string name="thirdQAns1">Принять звонок</string>
+    <string name="thirdQAns2">Ответить на звонок</string>
 
 </resources>

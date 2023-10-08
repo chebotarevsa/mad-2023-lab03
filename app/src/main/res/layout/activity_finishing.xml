@@ -8,6 +8,7 @@
 
 
     <TextView
+        android:id="@+id/correctAnswersAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/correct"
@@ -20,6 +21,7 @@
         app:layout_constraintVertical_bias="0.4" />
 
     <TextView
+        android:id="@+id/incorrectAnswersAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/incorrect"
