@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="title_activity_main2"></string>
+    <string name="quiz">QUIZ</string>
+    <string name="start">Start</string>
+    <string name="fruit">Fruit</string>
+    <string name="vegetable">Vegetable</string>
+    <string name="berry">Berry</string>
+    <string name="edible">Edible</string>
+    <string name="venomous">Venomous</string>
+    <string name="tasty">Tasty</string>
+    <string name="next_question">Next question</string>
+    <string name="plant">Plant</string>
+    <string name="question">А и Б сидели на трубе. А уехал за границу, Б чихнул и лёг в больницу. Что осталось на трубе?</string>
+    <string name="answer">Ответ...</string>
+    <string name="results">"Результат: "</string>
+    <string name="restart">Start again</string>
+    <string name="results_format">Correct answers: %1\$s\nIncorrect answers: %2\$s</string>
+    <string name="enter_answer_hint">Enter your answer</string>
+
+</resources>
