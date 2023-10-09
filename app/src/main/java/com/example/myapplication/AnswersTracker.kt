@@ -1,8 +1,18 @@
 package com.example.myapplication
 
 object AnswersTracker {
-    var correctAnswersCount = 0
-    var incorrectAnswersCount = 0
+    private var correctAnswersCount = 0
+    private var incorrectAnswersCount = 0
+
+    @JvmName("getCorrectAnswers")
+    fun getCorrectAnswersCount(): Int {
+        return correctAnswersCount
+    }
+
+    @JvmName("getIncorrectAnswers")
+    fun getIncorrectAnswersCount(): Int {
+        return incorrectAnswersCount
+    }
 
     fun incrementCorrect() {
         correctAnswersCount++
@@ -17,4 +27,3 @@ object AnswersTracker {
         incorrectAnswersCount = 0
     }
 }
-
