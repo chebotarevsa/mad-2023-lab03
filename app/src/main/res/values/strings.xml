@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="quiz_name">Опрос-Собеседование на Java разработчика</string>
+    <string name="start_quiz">Начать опрос</string>
+    <string name="next_question">Следующий вопрос</string>
+    <string name="text_question">Как конкатенируются строки в байт коде Java(подробно)</string>
+    <string name="text_answer_hint">Введите развернутый ответ</string>
+    <string name="restart_quiz">Начать заного</string>
+    <string name="correct_answers">Верно</string>
+    <string name="incorrect_answers">Неверно</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="press">Пресс качат</string>
+    <string name="push_up">Анжумания</string>
+    <string name="horizontal_bar">Турник</string>
+    <string name="run">Бегит</string>
+    <string name="make_approve">Сделать апрув</string>
+</resources>
