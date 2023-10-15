@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+        <activity android:name=".ApproveActivity" />
+        <activity android:name=".SimpleQuestionActivity" />
+        <activity android:name=".BytecodeQuestionActivity" />
+        <activity android:name=".NeedToTrainActivity" />
+        <activity android:name=".RestartActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
