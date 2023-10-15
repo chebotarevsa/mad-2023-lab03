@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Викторина</string>
+    <string name="quiz">Викторина</string>
+    <string name="button_text">Начать игру</string>
+    <string name="Q1">У двух братьев по одной сестре. Сколько всего детей в семье?</string>
+    <string name="Q2">У</string>
+    <string name="A2">Три</string>
+    <string name="RB1">Овощ</string>
+    <string name="RB2">Фрукт</string>
+    <string name="RB3">Ягода</string>
+    <string name="CB1">Съедобный</string>
+    <string name="CB2">Ядовитый</string>
+    <string name="CB3">Вкусный</string>
+    <string name="SW">Растение</string>
+    <string name="T">Верно</string>
+    <string name="F">Неверно</string>
+    <string name="button_next">Дальше</string>
+</resources>
