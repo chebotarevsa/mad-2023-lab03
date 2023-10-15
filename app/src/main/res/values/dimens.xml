@@ -5,4 +5,6 @@
     <dimen name="heightButton">60dp</dimen>
     <dimen name="textSizeButton">25sp</dimen>
     <dimen name="marginBottom">25sp</dimen>
+    <dimen name="imagesize2">300dp</dimen>
+    <dimen name="checkboxwidth3">250dp</dimen>
 </resources>
