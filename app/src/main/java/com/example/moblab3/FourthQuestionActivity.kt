@@ -20,21 +20,20 @@ class FourthQuestionActivity : AppCompatActivity() {
         incorrect = intent.getIntExtra(Answer.INCORRECT, incorrect)
 
         binding.button!!.setOnClickListener {
-            checkAnswer()
+            val isValid = checkAnswer()
             val intent = Intent(this, FinalActivity::class.java)
-            intent.putExtra(Answer.CORRECT, correct)
-            intent.putExtra(Answer.INCORRECT, incorrect)
+            intent.putExtra(Answer.CORRECT, correct + isValid.intValue)
+            intent.putExtra(Answer.INCORRECT, incorrect + (!isValid).intValue)
             startActivity(intent)
         }
     }
 
 
-    private fun checkAnswer() {
-        if (binding.switch2.isChecked) {
-            correct++
-        } else {
-            incorrect++
-        }
+    private fun checkAnswer(): Boolean {
+        return binding.switch2.isChecked
     }
+
+    val Boolean.intValue
+        get() = if (this) 1 else 0
 
 }

@@ -21,20 +21,19 @@ class SecondQuestionActivity : AppCompatActivity() {
         incorrect = intent.getIntExtra(Answer.INCORRECT, incorrect)
 
         binding.button.setOnClickListener {
-            checkAnswer()
+            val isValid = checkAnswer()
             val intent = Intent(this, ThirdQuestionActivity::class.java)
-            intent.putExtra(Answer.CORRECT, correct)
-            intent.putExtra(Answer.INCORRECT, incorrect)
+            intent.putExtra(Answer.CORRECT, correct + isValid.intValue)
+            intent.putExtra(Answer.INCORRECT, incorrect + (!isValid).intValue)
             startActivity(intent)
         }
     }
 
-    private fun checkAnswer() {
-        if (binding.radioButton1.isChecked) {
-            correct++
-        } else {
-            incorrect++
-        }
+    private fun checkAnswer(): Boolean{
+        return binding.radioButton1.isChecked
     }
+
+    val Boolean.intValue
+        get() = if (this) 1 else 0
 
 }
