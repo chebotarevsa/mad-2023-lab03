@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab3</string>
+    <string name="start_game">Начать игру</string>
+    <string name="quiz">Викторина на знание цитат Д. Стэтхэма</string>
+    <string name="nextQuestion">Следующий вопрос</string>
+    <string name="endQuiz">Завершить</string>
+</resources>
