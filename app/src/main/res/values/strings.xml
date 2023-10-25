@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">lab3_Smirnov</string>
+    <string name="startQuiz">Начать квиз</string>
+    <string name="java_quiz">JAVA - quiz</string>
+    <string name="nextQuestion">Следующий вопрос</string>
+    <string name="question1">Какая компания владеет и поддерживает язык Java?</string>
+    <string name="answerQ1">Oracle</string>
+    <string name="question2">"@Override это?"</string>
+    <string name="question3">Основные принципы ООП:</string>
+    <string name="question4">Наследуются ли все классы от класса Object?</string>
+    <string name="answerNum1">Переопределение</string>
+    <string name="answerNum2">Перегрузка метода</string>
+    <string name="answerNum3">Исключение</string>
+    <string name="possibleAnswerNum1">Абстракция</string>
+    <string name="possibleAnswerNum2">Инкапсуляция</string>
+    <string name="possibleAnswerNum3">Наследование </string>
+    <string name="possibleAnswerNum4">Полиморфизм</string>
+    <string name="returnQuiz">Заново</string>
+    <string name="trueAnswer">Правильно:</string>
+    <string name="falseAnswer">Неправильно:</string>
+</resources>
