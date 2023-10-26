@@ -9,22 +9,23 @@ class ResultActivity : AppCompatActivity() {
 
     private lateinit var binding: ResultActivityBinding
 
-    var isTrue = 0;
-    var isFalse = 0;
+    var numTrue = 0;
+    var numFalse = 0;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ResultActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        isTrue = intent.getIntExtra(Answer.True, isTrue)
-        isFalse = intent.getIntExtra(Answer.False, isFalse)
+        numTrue = intent.getIntExtra(Answer.True, numTrue)
+        numFalse = intent.getIntExtra(Answer.False, numFalse)
 
-        binding.T.text = isTrue.toString()
-        binding.F.text = isFalse.toString()
+        binding.T.text = numTrue.toString()
+        binding.F.text = numFalse.toString()
 
         binding.buttonContinue.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
             startActivity(intent)
         }
     }

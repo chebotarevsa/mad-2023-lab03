@@ -9,28 +9,32 @@ class PageFourActivity : AppCompatActivity() {
 
     private lateinit var binding: Page4ActivityBinding
 
-    var isTrue = 0;
-    var isFalse = 0;
+    var numTrue = 0;
+    var numFalse = 0;
+    var isAnswer=true
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = Page4ActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        isTrue = intent.getIntExtra(Answer.True, isTrue)
-        isFalse = intent.getIntExtra(Answer.False, isFalse)
+        numTrue = intent.getIntExtra(Answer.True, numTrue)
+        numFalse = intent.getIntExtra(Answer.False, numFalse)
 
         binding.buttonContinue.setOnClickListener {
             checkAnswer()
             val intent = Intent(this, ResultActivity::class.java)
-            intent.putExtra(Answer.True, isTrue)
-            intent.putExtra(Answer.False, isFalse)
+            intent.putExtra(Answer.True, numTrue)
+            intent.putExtra(Answer.False, numFalse)
             startActivity(intent)
         }
     }
 
     private fun checkAnswer(){
         val correct = binding.S1.isChecked
-        if (correct) isFalse++ else isTrue++
+        if(isAnswer){
+            if (correct) numTrue++ else numFalse++
+            isAnswer = false
+        }
     }
 }
