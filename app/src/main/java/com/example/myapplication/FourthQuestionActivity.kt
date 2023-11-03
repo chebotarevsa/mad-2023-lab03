@@ -20,9 +20,9 @@ class FourthQuestionActivity : AppCompatActivity() {
             val answer = answerEditText.text.toString().trim()
             if (answer.equals("yes", ignoreCase = true)) {
                 QuizData.correctAnswers++
-                QuizData.wrongAnswers--
+                QuizData.wrongAnswers=4-QuizData.correctAnswers;
             } else {
-                QuizData.wrongAnswers
+                QuizData.wrongAnswers=4-QuizData.correctAnswers;
 
             }
 

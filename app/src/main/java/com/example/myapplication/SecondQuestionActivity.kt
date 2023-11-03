@@ -17,11 +17,9 @@ class SecondQuestionActivity : AppCompatActivity() {
         nextButton.setOnClickListener {
             if (switch.isChecked) {
                 QuizData.correctAnswers++
-                QuizData.wrongAnswers--
+
             }
-            else{
-                QuizData.wrongAnswers
-            }
+
 
             val intent = Intent(this, ThirdQuestionActivity::class.java)
             startActivity(intent)

@@ -17,9 +17,6 @@ class FirstQuestionActivity : AppCompatActivity() {
         nextButton.setOnClickListener {
             if (radioGroup.checkedRadioButtonId == R.id.option1a) {
                 QuizData.correctAnswers++
-                QuizData.wrongAnswers--
-            } else {
-                QuizData.wrongAnswers
             }
 
             val intent = Intent(this, SecondQuestionActivity::class.java)

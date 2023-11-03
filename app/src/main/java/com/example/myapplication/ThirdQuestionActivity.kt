@@ -18,11 +18,9 @@ class ThirdQuestionActivity : AppCompatActivity() {
         val optionD: CheckBox = findViewById(R.id.option3d)
         val nextButton: Button = findViewById(R.id.nextButton3)
         nextButton.setOnClickListener {
-            if (optionA.isChecked && !optionB.isChecked && optionC.isChecked && !optionD.isChecked) {
+            if (optionA.isChecked && optionB.isChecked && optionC.isChecked && optionD.isChecked) {
                 QuizData.correctAnswers++
-                QuizData.wrongAnswers--
-            } else {
-                QuizData.wrongAnswers
+
             }
 
             val intent = Intent(this, FourthQuestionActivity::class.java)

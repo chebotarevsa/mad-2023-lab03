@@ -3,6 +3,8 @@
     <string name="start_game">Начать игру</string>
     <string name="next">Следующий вопрос</string>
     <string name="restart">Начать заново</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
 
     <string name="question1">На какой фильм Стенли Кубрика отсылается данный эпизод фильма?</string>
     <string name="option1a">«Космическая одиссея»</string>
@@ -19,6 +21,9 @@
 
     <string name="question4">«Один билет на «Барби с Гослингом, пожалуйста?»</string>
     <string name="enter_answer">Просто напиши «yes»!</string>
+    <string name="correct_answers">Правильные ответы:</string>
+    <string name="wrong_answers">Неправильные ответы:</string>
+
 
 
 </resources>
