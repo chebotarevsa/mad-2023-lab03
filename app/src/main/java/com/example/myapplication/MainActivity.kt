@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         val startButton: Button = findViewById(R.id.start_button)
         startButton.setOnClickListener {
-            QuizData.reset() // Сброс счетчика перед началом новой игры
+            QuizData.reset()
             val intent = Intent(this, FirstQuestionActivity::class.java)
             startActivity(intent)
         }

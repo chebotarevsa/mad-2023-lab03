@@ -10,6 +10,7 @@
 
     <dimen name="margin_little">16dp</dimen>
     <dimen name="margin_middle">24dp</dimen>
+    <dimen name="margin_start">32dp</dimen>
     <dimen name="margin_big">48dp</dimen>
     <dimen name="margin_nothing">0dp</dimen>
 
