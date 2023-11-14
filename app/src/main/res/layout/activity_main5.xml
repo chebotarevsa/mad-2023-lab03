@@ -7,23 +7,42 @@
     tools:context=".MainActivity5">
 
     <Switch
-        android:layout_width="@dimen/_350dp"
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Д. Стэтхема крутой?"
+        android:layout_marginStart="@dimen/_25dp"
+        android:layout_marginEnd="@dimen/_25dp"
+        android:layout_marginBottom="@dimen/_25dp"
+        android:text="@string/q4"
         android:textSize="@dimen/_35sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="@dimen/_25dp"
+        android:src="@drawable/stet3"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/switch1"
         tools:ignore="MissingConstraints" />
     <Button
         android:id="@+id/button"
-        android:layout_width="@dimen/_350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="@string/endQuiz"
         android:textSize="@dimen/_30sp"
-        android:layout_marginBottom="@dimen/_50dp"
+        android:layout_marginStart="@dimen/_25dp"
+        android:layout_marginEnd="@dimen/_25dp"
+        android:layout_marginBottom="@dimen/_25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

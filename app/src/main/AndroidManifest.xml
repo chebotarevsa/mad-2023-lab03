@@ -13,15 +13,6 @@
         android:theme="@style/Theme.Lab3"
         tools:targetApi="34">
         <activity
-            android:name=".ResultActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity5"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity4"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -30,8 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2"
+            android:exported="false"/>
+        <activity android:name=".MainActivity3"
+            android:exported="false"/>
+        <activity android:name=".MainActivity4"
+            android:exported="false"/>
+        <activity android:name=".MainActivity5"
+            android:exported="false"/>
+        <activity android:name=".ResultActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
