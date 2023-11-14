@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">lab3</string>
+    <string name="start_game">Начать игру</string>
+    <string name="quiz">Викторина на знание цитат Д. Стэтхэма</string>
+    <string name="nextQuestion">Следующий вопрос</string>
+    <string name="endQuiz">Завершить</string>
+    <string name="verno">Верно:</string>
+    <string name="neverno">Неверно:</string>
+    <string name="begin_again">Начать заново</string>
+    <string name="endString">Продолжите фразу: Кто обзывается, ...</string>
+    <string name="ds1">Джейсон Стэтхэм!</string>
+    <string name="ds2">Стэтхэм!</string>
+    <string name="ds3">Эй, мужик!</string>
+    <string name="ds4">АЛО!</string>
+    <string name="q3">Как можно позвать Д. Стэтхема?</string>
+    <string name="q2">Выберите правильный ответ: На педалях пяточки, еду на ...</string>
+    <string name="q4">Д. Стэтхем крутой?</string>
+    <string name="a10">десяточке</string>
+    <string name="a9">девяточке</string>
+    <string name="a5">пятёрочке</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_80sp">80sp</dimen>
+    <dimen name="_300dp">300dp</dimen>
+    <dimen name="_30sp">30sp</dimen>
+    <dimen name="_50dp">50dp</dimen>
+    <dimen name="_350dp">350dp</dimen>
+    <dimen name="_35sp">35sp</dimen>
+    <dimen name="_25dp">25dp</dimen>
+</resources>
