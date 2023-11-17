@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text_size">36sp</dimen>
+    <dimen name="title_text_little">18sp</dimen>
+    <dimen name="text_size_big">48sp</dimen>
+    <dimen name="button_text_size">24sp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button_width">300dp</dimen>
+    <dimen name="button_radius">30dp</dimen>
+
+    <dimen name="margin_little">16dp</dimen>
+    <dimen name="margin_middle">24dp</dimen>
+    <dimen name="margin_start">32dp</dimen>
+    <dimen name="margin_big">48dp</dimen>
+    <dimen name="margin_nothing">0dp</dimen>
+
+
+</resources>
