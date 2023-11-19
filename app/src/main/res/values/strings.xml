@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">lab03</string>
+    <string name="quiz_name">QUIZ</string>
+    <string name="main_button_text">Начать игру</string>
+    <string name="ques_num_01">У двух братьев по одной сестре. Сколько всего детей в семье?</string>
+    <string name="next_ques">Следующий вопрос</string>
+    <string name="ques_example">e.g 5</string>
+    <string name="radio_button_01">Овощ</string>
+    <string name="radio_button_02">Фрукт</string>
+    <string name="radio_button_03">Ягода</string>
+    <string name="check_box_01">Съедобный</string>
+    <string name="check_box_02">Ядовитый</string>
+    <string name="check_box_03">Вкусный</string>
+    <string name="swtich_text">Растение</string>
+    <string name="button_finish_text">Начать заново</string>
+    <string name="right_ques">Верно</string>
+    <string name="wrong_ques">Не верно</string>
+    <string name="answer02">3</string>
+</resources>

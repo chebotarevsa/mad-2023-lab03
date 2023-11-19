@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PageTwoActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/image_waterlemon_layout_width"
+            android:layout_height="@dimen/image_waterlemon_layout_height"
+            android:src="@drawable/watermelon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.59"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.065" />
+
+        <RadioGroup
+            android:layout_width="@dimen/radioGroup_layout_width"
+            android:layout_height="@dimen/radioGroup_layout_height"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.548"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.744">
+
+            <RadioButton
+                android:id="@+id/R1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_button_01"
+                android:textSize="@dimen/page01_text_size_button" />
+
+            <RadioButton
+                android:id="@+id/R2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/radio_button_02"
+                android:textSize="@dimen/page01_text_size_button" />
+
+            <RadioButton
+                android:id="@+id/R3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_button_03"
+                android:textSize="@dimen/page01_text_size_button" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="@dimen/main_button_layout_width"
+            android:layout_height="@dimen/main_button_layout_height"
+            android:text='@string/next_ques'
+            android:textSize="@dimen/page01_text_size_button"
+            android:background="@drawable/rounded_corner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="@dimen/page01_Vertical_bias_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

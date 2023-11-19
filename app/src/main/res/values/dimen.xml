@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_text_size">50dp</dimen>
+    <dimen name="page01_text_size">30dp</dimen>
+    <dimen name="page01_text_size_button">20dp</dimen>
+    <dimen name="main_button_size">20dp</dimen>
+    <dimen name="main_Vertical_bias">0.928</dimen>
+    <dimen name="page01_Vertical_bias">0.300</dimen>
+    <dimen name="page01_Vertical_bias_button">0.928</dimen>
+    <dimen name="page01_Horizontal_bias">0.400</dimen>
+    <dimen name="main_button_layout_width">300dp</dimen>
+    <dimen name="main_button_layout_height">60dp</dimen>
+    <dimen name="radius_button">50dp</dimen>
+
+    <dimen name="image_waterlemon_layout_width">360dp</dimen>
+    <dimen name="image_waterlemon_layout_height">350dp</dimen>
+    <dimen name="radioGroup_layout_width">150dp</dimen>
+    <dimen name="radioGroup_layout_height">200dp</dimen>
+    <dimen name="animals_layout_width">350dp</dimen>
+    <dimen name="animals_layout_height">370dp</dimen>
+
+    <dimen name="swtich_layout_width_h">73dp</dimen>
+    <dimen name="swtich_scaleX_scaleY">2</dimen>
+
+    <dimen name="result_textview_layout_width">126dp</dimen>
+    <dimen name="result_textview_layout_height">51dp</dimen>
+    <dimen name="wrong_result_textview_layout_width">145dp</dimen>
+    <dimen name="wrong_result_textview_layout_height">55dp</dimen>
+    <dimen name="num_res_layout_width">144dp</dimen>
+    <dimen name="num_res_layout_height">32dp</dimen>
+    <dimen name="wrong_num_res_layout_width">133dp</dimen>
+    <dimen name="wrong_num_res_layout_height">35dp</dimen>
+</resources>

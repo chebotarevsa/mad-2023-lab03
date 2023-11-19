@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PageFourActivity">
+
+
+        <ImageView
+            android:layout_width="@dimen/animals_layout_width"
+            android:layout_height="@dimen/animals_layout_height"
+            android:src="@drawable/animals"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.59"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.065" />
+
+        <Switch
+            android:id="@+id/S1"
+            android:layout_width="@dimen/swtich_layout_width_h"
+            android:layout_height="@dimen/swtich_layout_width_h"
+            android:scaleX="@dimen/swtich_scaleX_scaleY"
+            android:scaleY="@dimen/swtich_scaleX_scaleY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.174"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.626" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="174dp"
+            android:layout_height="67dp"
+            android:text='@string/swtich_text'
+            android:textSize="@dimen/page01_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.751"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.643" />
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="@dimen/main_button_layout_width"
+            android:layout_height="@dimen/main_button_layout_height"
+            android:text='@string/next_ques'
+            android:textSize="@dimen/page01_text_size_button"
+            android:background="@drawable/rounded_corner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="@dimen/page01_Vertical_bias_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
