@@ -27,6 +27,7 @@ class PageOneActivity : AppCompatActivity() {
             intent.putExtra(Answer.True, numTrue)
             intent.putExtra(Answer.False, numFalse)
             startActivity(intent)
+            finish() // prevent user from going back to this page
         }
     }
 

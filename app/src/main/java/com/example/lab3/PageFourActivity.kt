@@ -27,6 +27,7 @@ class PageFourActivity : AppCompatActivity() {
             intent.putExtra(Answer.True, numTrue)
             intent.putExtra(Answer.False, numFalse)
             startActivity(intent)
+            finish()
         }
     }
 
