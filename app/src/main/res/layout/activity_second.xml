@@ -38,13 +38,13 @@
 
 
         <RadioButton
+            android:id="@+id/firstRadioButton"
             android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/second_A1" />
 
         <RadioButton
-            android:id="@+id/correctRadioButton"
             android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
