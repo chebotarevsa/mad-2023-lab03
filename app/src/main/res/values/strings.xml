@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="quiz">QUIZ</string>
+    <string name="start">START</string>
+    <string name="first_Q">Как переводится с греческого бактерия?</string>
+    <string name="first_H">Смотрите на картинку</string>
+    <string name="next_Q">Следующий вопрос</string>
+    <string name="second_Q">Сколько миллионов бактериальных клеток содержит один грамм почвы?</string>
+    <string name="second_A1">40</string>
+    <string name="second_A2">35</string>
+    <string name="second_A3">69</string>
+    <string name="third_Q">Какие болезни вызывают бактерии?</string>
+    <string name="third_A1">Холера</string>
+    <string name="third_A2">Сибирская язва</string>
+    <string name="third_A3">Плоскостопие</string>
+    <string name="end_Q">Завершить опрос</string>
+    <string name="fourth_Q">Принадлежат ли бактерии царству растений?</string>
+    <string name="retry">Начать заново</string>
+    <string name="correct">Количество верных ответов: %1$d</string>
+    <string name="incorrect">Количество неверных ответов: %1$d</string>
+</resources>
