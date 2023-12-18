@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeNameFont">50sp</dimen>
+    <dimen name="widthButton">300dp</dimen>
+    <dimen name="heightButton">60dp</dimen>
+    <dimen name="textSizeButton">25sp</dimen>
+    <dimen name="marginBottom">25sp</dimen>
+    <dimen name="imagesize2">300dp</dimen>
+    <dimen name="checkboxwidth3">250dp</dimen>
+</resources>
