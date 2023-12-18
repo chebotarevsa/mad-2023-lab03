@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/questionImage"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/animals_look_like_plants"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="16dp"/>
+
+    <Switch
+        android:id="@+id/yesNoSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textOff=""
+        android:textOn=""
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yesNoSwitch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Следующий вопрос"/>
+
+</RelativeLayout>
